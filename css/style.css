@@ -1,0 +1,93 @@
+.navbar{
+    background-color: #874fb7;
+}
+.header{
+    position: relative;
+}
+.ace{
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin-top: -45px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+.nav-link{
+    font-size: 24px;
+    color: #fff;
+}
+.web-banner{
+    min-height: 100vh;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content1 h1{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-content1 p{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-crt{
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 16px;
+}
+#btn1{
+    background-color: white;
+    color: #874fb7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+#btn2{
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+}
+.banner-content2 img{
+    height: 600px;
+    width: 400px;
+}
+
+@media (max-width:992px){
+    .banner-content1 h1{
+        font-size: 50px;
+    }
+    .banner-content2 img{
+        width: 350px;
+    }
+}
+@media (max-width:768px){
+  .web-banner{
+      text-align: center;
+  }
+}
+@media (max-width:576px){
+    .banner-content2 img{
+        height: 450px;
+    }
+    .banner-content1 h1{
+        font-size: 35px;
+    }
+  }
+  @media (max-width:360px){
+    .banner-content2 img{
+        height: 300px;
+        width: 250px;
+    }
+    .banner-content1 h1{
+        font-size: 30px;
+    }
+    .btn-crt{
+        padding: 10px 10px;
+    }
+  }
